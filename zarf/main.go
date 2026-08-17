@@ -11,8 +11,8 @@ import (
 
 // Configuration matching your local environment
 const (
-	ollamaURL = "http://localhost:11434/v1/chat/completions"
-	modelName = "qwen2.5-coder:1.5b"
+	ollamaURL = "http://192.168.0.110:11434/v1/chat/completions"
+	modelName = "qwen2.5-coder:7b"
 )
 
 type Message struct {
